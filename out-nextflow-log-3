@@ -1,0 +1,29 @@
+TIMESTAMP          	DURATION 	RUN NAME             	STATUS	REVISION ID	SESSION ID                          	COMMAND                                                        
+2023-12-05 22:39:28	16.2s    	drunk_sax            	ERR   	22550db2ac 	9ced9ceb-0314-472c-a9f3-33e746686536	nextflow run main.nf --times=200 -profile awsbatch,wave-stage  
+2023-12-05 22:39:54	5m 33s   	cranky_williams      	OK    	22550db2ac 	d7b329b9-2d37-41be-8d91-5d781991c56a	nextflow run main.nf --times=200 -profile awsbatch,wave-stage  
+2023-12-05 22:49:50	5m 21s   	extravagant_faggin   	OK    	22550db2ac 	99d58cc6-753c-497f-8cd4-154feae0125a	nextflow run main.nf --times=100 -profile awsbatch,wave-stage  
+2023-12-05 22:55:13	2m 57s   	mighty_heisenberg    	OK    	22550db2ac 	b54c4813-d262-419b-99b3-2d5d5a4b26c0	nextflow run main.nf --times=200 -profile awsbatch,wave-stage  
+2023-12-05 22:58:11	9m 26s   	naughty_monod        	OK    	22550db2ac 	f1e9f631-9347-48af-ac3e-93ecc199b29b	nextflow run main.nf --times=400 -profile awsbatch,wave-stage  
+2023-12-05 23:07:38	13m 10s  	compassionate_lumiere	OK    	22550db2ac 	bf9be5ca-0a7f-4f0c-b663-f0f17ca05c13	nextflow run main.nf --times=800 -profile awsbatch,wave-stage  
+2023-12-05 23:20:49	21m 59s  	sharp_noether        	OK    	22550db2ac 	290e406e-f7e4-41b8-a9de-f2df039cd968	nextflow run main.nf --times=1600 -profile awsbatch,wave-stage 
+2023-12-05 23:42:50	39m 18s  	nice_brahmagupta     	OK    	22550db2ac 	d590feb3-7cb9-422a-9d62-f316657b0771	nextflow run main.nf --times=3200 -profile awsbatch,wave-stage 
+2023-12-06 00:22:10	1h 8m 7s 	awesome_allen        	OK    	22550db2ac 	cef81d37-743e-4b31-87a4-f0ba371d17a5	nextflow run main.nf --times=6000 -profile awsbatch,wave-stage 
+2023-12-06 09:47:55	3.1s     	silly_koch           	OK    	1d71f857bb 	fb77baec-ed07-4dc6-9ef1-c380a6786b35	nextflow run nextflow-io/hello                                 
+2023-12-06 09:48:19	7m 9s    	astonishing_lorenz   	ERR   	22550db2ac 	4e6d6cca-fc96-47ce-8322-2c636a046970	nextflow run main.nf --times=6000 -profile awsbatch,wave-stage 
+2023-12-06 11:06:36	-        	wise_pare            	-     	22550db2ac 	692355d4-204a-479a-8328-e614b6a1d67a	nextflow run main.nf --times=6000 -profile awsbatch,wave-stage 
+2023-12-06 11:06:59	6m 8s    	stupefied_cray       	OK    	22550db2ac 	946c7872-d310-431d-a49c-1384c0209d23	nextflow run main.nf --times=2 -profile awsbatch,wave-stage    
+2023-12-12 00:42:30	6m 26s   	exotic_lattes        	OK    	22550db2ac 	ffb083ae-21f7-4bd5-b55c-999ee4f83b12	nextflow run main.nf --times=100 -profile awsbatch,wave-stage  
+2023-12-12 00:48:58	2m 54s   	ecstatic_magritte    	OK    	22550db2ac 	c138c556-9afb-4d6e-8d9a-e57bb892f799	nextflow run main.nf --times=200 -profile awsbatch,wave-stage  
+2023-12-12 00:51:54	9m 3s    	determined_koch      	OK    	22550db2ac 	4afb95cc-8676-401b-90e0-9d9976740361	nextflow run main.nf --times=400 -profile awsbatch,wave-stage  
+2023-12-12 01:00:59	12m 18s  	infallible_carlsson  	OK    	22550db2ac 	e847dac1-d96f-45b2-8dc8-c7f4f66c20d5	nextflow run main.nf --times=800 -profile awsbatch,wave-stage  
+2023-12-12 01:13:19	21m 49s  	prickly_borg         	OK    	22550db2ac 	b44fd1b3-d106-4808-be86-c5706d189ceb	nextflow run main.nf --times=1600 -profile awsbatch,wave-stage 
+2023-12-12 01:35:10	39m 55s  	adoring_fourier      	OK    	22550db2ac 	b6eddc5c-8081-4ef2-856e-40018c8e32f1	nextflow run main.nf --times=3200 -profile awsbatch,wave-stage 
+2023-12-12 02:15:06	1h 10m 5s	intergalactic_lamarck	OK    	22550db2ac 	ebafd7de-9cc3-47ac-b58b-dad3361b00ae	nextflow run main.nf --times=6000 -profile awsbatch,wave-stage 
+2023-12-12 03:25:12	4m 24s   	lonely_pike          	OK    	22550db2ac 	f4745188-72e1-4125-8576-c9475994448a	nextflow run main.nf --times=100 -profile awsbatch2,wave-stage 
+2023-12-12 03:29:38	2m 55s   	angry_leakey         	OK    	22550db2ac 	c584de18-09cb-41a7-87f2-3b9f9f3add75	nextflow run main.nf --times=200 -profile awsbatch2,wave-stage 
+2023-12-12 03:32:35	7m 18s   	cranky_mahavira      	OK    	22550db2ac 	b96b1ecf-912c-4fd5-8b94-7a5c36b27dc6	nextflow run main.nf --times=400 -profile awsbatch2,wave-stage 
+2023-12-12 03:39:55	12m 8s   	evil_mestorf         	OK    	22550db2ac 	55c38107-576a-4d7e-bb3e-b193aa008509	nextflow run main.nf --times=800 -profile awsbatch2,wave-stage 
+2023-12-12 03:52:05	20m 49s  	agitated_ramanujan   	OK    	22550db2ac 	dda764df-39e8-4812-90ad-c34944cd14a7	nextflow run main.nf --times=1600 -profile awsbatch2,wave-stage
+2023-12-12 04:12:55	38m 9s   	ecstatic_goldstine   	OK    	22550db2ac 	bbbf5a53-33ed-4f8b-87fc-f12418250f12	nextflow run main.nf --times=3200 -profile awsbatch2,wave-stage
+2023-12-12 04:51:06	1h 8m 44s	magical_curran       	OK    	22550db2ac 	004a7596-2e1f-404c-966b-6d7bd0012fc9	nextflow run main.nf --times=6000 -profile awsbatch2,wave-stage
+
