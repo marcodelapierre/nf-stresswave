@@ -1,0 +1,93 @@
+$ for i in 1 2 4 8 16 32 60 ; do date ; nextflow run main.nf --times=$((i*100)) -profile awsbatch,wave-stage ; date ; done
+Tue  5 Dec 2023 22:49:48 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [extravagant_faggin] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (100)
+[ca/405454] process > pull (58)  [100%] 100 of 100 ✔
+Completed at: 05-Dec-2023 22:55:11
+Duration    : 5m 18s
+CPU hours   : 0.6
+Succeeded   : 100
+
+
+Tue  5 Dec 2023 22:55:11 AWST
+Tue  5 Dec 2023 22:55:11 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [mighty_heisenberg] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (200)
+[74/e52da8] process > pull (88)  [100%] 200 of 200 ✔
+Completed at: 05-Dec-2023 22:58:09
+Duration    : 2m 53s
+CPU hours   : 0.7
+Succeeded   : 200
+
+
+Tue  5 Dec 2023 22:58:10 AWST
+Tue  5 Dec 2023 22:58:10 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [naughty_monod] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (400)
+[f1/a4979e] process > pull (102) [100%] 400 of 400 ✔
+Completed at: 05-Dec-2023 23:07:36
+Duration    : 9m 21s
+CPU hours   : 1.5
+Succeeded   : 400
+
+
+Tue  5 Dec 2023 23:07:37 AWST
+Tue  5 Dec 2023 23:07:37 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [compassionate_lumiere] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (800)
+[b4/dc9778] process > pull (88)  [100%] 800 of 800 ✔
+Completed at: 05-Dec-2023 23:20:47
+Duration    : 13m 5s
+CPU hours   : 4.7
+Succeeded   : 800
+
+
+Tue  5 Dec 2023 23:20:47 AWST
+Tue  5 Dec 2023 23:20:47 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [sharp_noether] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (1600)
+[a3/80dff0] process > pull (1600) [100%] 1600 of 1600 ✔
+Completed at: 05-Dec-2023 23:42:48
+Duration    : 21m 55s
+CPU hours   : 1.2
+Succeeded   : 1'600
+
+
+Tue  5 Dec 2023 23:42:48 AWST
+Tue  5 Dec 2023 23:42:48 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [nice_brahmagupta] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (3200)
+[ee/9a5c10] process > pull (3189) [100%] 3200 of 3200 ✔
+Completed at: 06-Dec-2023 00:22:07
+Duration    : 39m 14s
+CPU hours   : 11.8
+Succeeded   : 3'200
+
+
+Wed  6 Dec 2023 00:22:08 AWST
+Wed  6 Dec 2023 00:22:08 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [awesome_allen] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (6000)
+[5d/c87d58] process > pull (6000) [100%] 6000 of 6000 ✔
+Completed at: 06-Dec-2023 01:30:16
+Duration    : 1h 8m 3s
+CPU hours   : 6.2
+Succeeded   : 6'000
+
+
+Wed  6 Dec 2023 01:30:17 AWST
+
