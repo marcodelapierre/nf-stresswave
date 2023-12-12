@@ -26,4 +26,10 @@ TIMESTAMP          	DURATION 	RUN NAME             	STATUS	REVISION ID	SESSION I
 2023-12-12 03:52:05	20m 49s  	agitated_ramanujan   	OK    	22550db2ac 	dda764df-39e8-4812-90ad-c34944cd14a7	nextflow run main.nf --times=1600 -profile awsbatch2,wave-stage
 2023-12-12 04:12:55	38m 9s   	ecstatic_goldstine   	OK    	22550db2ac 	bbbf5a53-33ed-4f8b-87fc-f12418250f12	nextflow run main.nf --times=3200 -profile awsbatch2,wave-stage
 2023-12-12 04:51:06	1h 8m 44s	magical_curran       	OK    	22550db2ac 	004a7596-2e1f-404c-966b-6d7bd0012fc9	nextflow run main.nf --times=6000 -profile awsbatch2,wave-stage
-
+2023-12-12 09:25:02	4m 12s   	maniac_carson        	OK    	22550db2ac 	2503116c-ba11-41a2-8d92-572471d7ef30	nextflow run main.nf --times=100 -profile awsbatch,wave-stage  
+2023-12-12 09:29:16	2m 51s   	furious_jepsen       	OK    	22550db2ac 	f07e723f-5bd7-4141-aff7-6f6fe5ec7247	nextflow run main.nf --times=200 -profile awsbatch,wave-stage  
+2023-12-12 09:32:09	9m       	cheesy_wozniak       	OK    	22550db2ac 	5915de46-939d-4b15-aad5-7533fdfdcf32	nextflow run main.nf --times=400 -profile awsbatch,wave-stage  
+2023-12-12 09:41:11	8m 24s   	marvelous_borg       	ERR   	22550db2ac 	c9ce1970-fb6e-43b6-863c-c28a4f9a5d9d	nextflow run main.nf --times=800 -profile awsbatch,wave-stage  
+2023-12-12 09:49:36	15m 2s   	golden_kilby         	ERR   	22550db2ac 	4a2a1acc-7efd-487d-b000-03fb23f2a09c	nextflow run main.nf --times=1600 -profile awsbatch,wave-stage 
+2023-12-12 10:04:39	11m 30s  	gigantic_saha        	ERR   	22550db2ac 	d2d98e39-a7a7-43db-9fa8-f894dcc203c5	nextflow run main.nf --times=3200 -profile awsbatch,wave-stage 
+2023-12-12 10:16:11	11m 11s  	scruffy_morse        	ERR   	22550db2ac 	0c58992d-e393-4c32-9ba5-713005e691a6	nextflow run main.nf --times=6000 -profile awsbatch,wave-stage 
