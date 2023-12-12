@@ -1,0 +1,177 @@
+$ for i in 1 2 4 8 16 32 60 ; do date ; nextflow run main.nf --times=$((i*100)) -profile awsbatch,wave-stage ; date ; done
+Tue 12 Dec 2023 09:25:00 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [maniac_carson] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (100)
+[2e/5a7e46] process > pull (29)  [100%] 100 of 100 ✔
+Completed at: 12-Dec-2023 09:29:13
+Duration    : 4m 8s
+CPU hours   : 0.6
+Succeeded   : 100
+
+
+Tue 12 Dec 2023 09:29:14 AWST
+Tue 12 Dec 2023 09:29:14 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [furious_jepsen] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (200)
+[f4/0b8035] process > pull (89)  [100%] 200 of 200 ✔
+Completed at: 12-Dec-2023 09:32:07
+Duration    : 2m 48s
+CPU hours   : 0.6
+Succeeded   : 200
+
+
+Tue 12 Dec 2023 09:32:07 AWST
+Tue 12 Dec 2023 09:32:07 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [cheesy_wozniak] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (400)
+[df/a730df] process > pull (60)  [100%] 400 of 400 ✔
+Completed at: 12-Dec-2023 09:41:09
+Duration    : 8m 57s
+CPU hours   : 2.0
+Succeeded   : 400
+
+
+Tue 12 Dec 2023 09:41:09 AWST
+Tue 12 Dec 2023 09:41:09 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [marvelous_borg] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (800)
+executor >  awsbatch (fusion enabled) (800)
+executor >  awsbatch (fusion enabled) (800)
+[78/c36fa1] process > pull (466) [ 56%] 456 of 800, failed: 1
+ERROR ~ Error executing process > 'pull (466)'
+
+Caused by:
+  Task failed to start - CannotPullContainerError: Error response from daemon: received unexpected HTTP status: 502 Bad Gateway
+
+Command executed:
+
+  echo Hello 466 
+  sleep 5
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  s3://nextflow-ci-dev/work/78/c36fa187fdc5f4ae59a523fa9dc8f6
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+WARN: Killing running tasks (344)
+[AWS BATCH] Waiting jobs reaper to complete (319 jobs to be terminated)
+
+Tue 12 Dec 2023 09:49:35 AWST
+Tue 12 Dec 2023 09:49:35 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [golden_kilby] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (1600)
+executor >  awsbatch (fusion enabled) (1600)
+executor >  awsbatch (fusion enabled) (1600)
+[27/fde8b5] process > pull (1264) [ 79%] 1264 of 1600, failed: 1
+ERROR ~ Error executing process > 'pull (1264)'
+
+Caused by:
+  Task failed to start - CannotPullContainerError: Error response from daemon: received unexpected HTTP status: 502 Bad Gateway
+
+Command executed:
+
+  echo Hello 1264 
+  sleep 5
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  s3://nextflow-ci-dev/work/27/fde8b5340b22e8cfa0e1bd82e5f7d9
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check '.nextflow.log' file for details
+WARN: Killing running tasks (336)
+[AWS BATCH] Waiting jobs reaper to complete (278 jobs to be terminated)
+
+Tue 12 Dec 2023 10:04:38 AWST
+Tue 12 Dec 2023 10:04:38 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [gigantic_saha] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (1760)
+executor >  awsbatch (fusion enabled) (1760)
+executor >  awsbatch (fusion enabled) (1760)
+[d1/5c0d3e] process > pull (800)  [ 23%] 761 of 3200, failed: 1
+ERROR ~ Error executing process > 'pull (800)'
+
+Caused by:
+  Task failed to start - CannotPullContainerError: Error response from daemon: received unexpected HTTP status: 502 Bad Gateway
+
+Command executed:
+
+  echo Hello 800 
+  sleep 5
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  s3://nextflow-ci-dev/work/d1/5c0d3edbb7724873e06bb67561f5cc
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check '.nextflow.log' file for details
+[49/705727] Submitted process > pull (1761)
+WARN: Killing running tasks (1000)
+[AWS BATCH] Waiting jobs reaper to complete (868 jobs to be terminated)
+
+Tue 12 Dec 2023 10:16:09 AWST
+Tue 12 Dec 2023 10:16:09 AWST
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+N E X T F L O W  ~  version 23.10.0
+Launching `main.nf` [scruffy_morse] DSL2 - revision: 22550db2ac
+executor >  awsbatch (fusion enabled) (1515)
+[93/7b472e] process > pull (599)  [  8%] 516 of 6000, failed: 1
+ERROR ~ Error executing process > 'pull (599)'
+
+Caused by:
+  Task failed to start - CannotPullContainerError: Error response from daemon: missing or empty Content-Length header
+
+Command executed:
+
+  echo Hello 599 
+  sleep 5
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  s3://nextflow-ci-dev/work/93/7b472ed35bbee54e5895db4f29beed
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check '.nextflow.log' file for details
+[c9/aa9560] Submitted process > pull (1517)
+WARN: Killing running tasks (1000)
+[AWS BATCH] Waiting jobs reaper to complete (775 jobs to be terminated)
+
+Tue 12 Dec 2023 10:27:22 AWST
+
