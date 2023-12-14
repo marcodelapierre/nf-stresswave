@@ -5,7 +5,7 @@ Basic pipeline to stress test Wave service
 Run using this command:
 
 ```
-nextflow run marcodelapierre/nf-stresswave -profile awsbatch,wave-stage --times <how many jobs to run>
+nextflow run marcodelapierre/nf-stresswave -r marco/config_aws -profile awsbatch,wave-stage --times <how many jobs to run>
 ```
 
 Real case stress test:
